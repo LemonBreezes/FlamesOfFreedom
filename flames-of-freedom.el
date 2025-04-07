@@ -391,12 +391,6 @@ A little poem is displayed."
    1))
 
 
-(mapc 'byte-compile '(flames-of-freedom-dups
-		      flames-of-freedom-update-flames
-		      flames-of-freedom-flames-to-string
-		      flames-of-freedom-flames-to-string-props))
-
-
 ;;(flames-of-freedom-default)
 
 (provide 'flames-of-freedom)
